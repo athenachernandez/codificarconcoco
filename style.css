@@ -717,6 +717,18 @@ img {
   text-align: center;
 }
 
+@media screen and (max-width: 1200px) {
+  .publication-column {
+    width: 100%
+  }
+  .featured-img {
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    display: block;
+  }
+}
+
 @media screen and (max-width: 1050px) {
   .svg-column {
     width: 50%;
